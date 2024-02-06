@@ -1,0 +1,58 @@
+<libraries>
+  <library
+      name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+      jars="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/4477d2a0c34b64e8a9c1ae8bcb9c5a79/transformed/out/jars/classes.jar:/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/4477d2a0c34b64e8a9c1ae8bcb9c5a79/transformed/out/jars/libs/unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/4477d2a0c34b64e8a9c1ae8bcb9c5a79/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+  <library
+      name=":OVRPlugin:@aar"
+      jars="/Users/katostevenmubiru/.gradle/caches/transforms-3/e5ee16f0d1ed3a0cf0e19b4ba363852a/transformed/OVRPlugin/jars/classes.jar"
+      resolved=":OVRPlugin:"
+      folder="/Users/katostevenmubiru/.gradle/caches/transforms-3/e5ee16f0d1ed3a0cf0e19b4ba363852a/transformed/OVRPlugin"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/27fc489a4d54ff159b339af67fc1179e/transformed/out/jars/classes.jar"
+      resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
+      folder="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/.transforms/27fc489a4d54ff159b339af67fc1179e/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:FirebaseApp.androidlib::release"
+      jars="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/.transforms/53c05781ed82860822783e1e01598fa8/transformed/out/jars/classes.jar"
+      resolved="Gradle.unityLibrary:FirebaseApp.androidlib:unspecified"
+      folder="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/.transforms/53c05781ed82860822783e1e01598fa8/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

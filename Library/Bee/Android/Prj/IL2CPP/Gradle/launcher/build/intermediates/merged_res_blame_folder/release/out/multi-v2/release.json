@@ -1,0 +1,125 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/merged_res/release/values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/merged_res/release/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/FirebaseApp.androidlib/build/intermediates/packaged_res/release/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,259,363,472,592,690",
+                        "endColumns": "121,81,103,108,119,97,74",
+                        "endOffsets": "172,254,358,467,587,685,760"
+                    },
+                    "to": {
+                        "startLines": "10,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "474,664,746,850,959,1079,1177",
+                        "endColumns": "121,81,103,108,119,97,74",
+                        "endOffsets": "591,741,845,954,1074,1172,1247"
+                    }
+                },
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,101",
+                        "endColumns": "47,65",
+                        "endOffsets": "98,164"
+                    },
+                    "to": {
+                        "startLines": "9,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "424,596",
+                        "endColumns": "49,67",
+                        "endOffsets": "469,659"
+                    }
+                },
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,169,226,282,331,377,424,524,662",
+                        "endLines": "2,3,4,5,6,7,8,10,13,17",
+                        "endColumns": "67,45,56,55,48,45,46,8,8,8",
+                        "endOffsets": "118,164,221,277,326,372,419,519,657,884"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,18,20,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,169,226,282,331,377,1252,1352,1490",
+                        "endLines": "2,3,4,5,6,7,8,19,22,26",
+                        "endColumns": "67,45,56,55,48,45,46,8,8,8",
+                        "endOffsets": "118,164,221,277,326,372,419,1347,1485,1712"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/merged_res/release/values-v31_values-v31.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v31/values-v31.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "614"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/merged_res/release/values-v30_values-v30.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,129,201,266,325",
+                        "endColumns": "73,71,64,58,60",
+                        "endOffsets": "124,196,261,320,381"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/merged_res/release/values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}

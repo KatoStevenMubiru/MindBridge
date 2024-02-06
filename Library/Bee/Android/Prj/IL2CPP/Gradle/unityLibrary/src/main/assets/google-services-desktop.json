@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "572778167218",
+    "firebase_url": "https://unityapp-e903b-default-rtdb.firebaseio.com",
+    "project_id": "unityapp-e903b",
+    "storage_bucket": "unityapp-e903b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572778167218:android:4fd414dc7c4e50ce01c2ab",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.KSM"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5jyk-AkSFG-9wiNJcGNmhJfRBKyOwT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572778167218:android:3972ea4e645fba4001c2ab",
+        "android_client_info": {
+          "package_name": "com.Unity.CreateWithVR"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5jyk-AkSFG-9wiNJcGNmhJfRBKyOwT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,634 @@
+Unity Editor version:    2022.3.17f1 (4fc78088f837)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55391
+Successfully changed project path to: /Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room
+/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8131154688] Host "[IP] 192.168.100.129 [Port] 0 [Flags] 2 [Guid] 1885569503 [EditorId] 1885569503 [Version] 1048832 [Id] OSXEditor(0,Katos-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8131154688] Host "[IP] 192.168.100.129 [Port] 0 [Flags] 2 [Guid] 1885569503 [EditorId] 1885569503 [Version] 1048832 [Id] OSXEditor(0,Katos-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 62.98 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 10.48 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56683
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.17f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001925 seconds.
+- Loaded All Assemblies, in  0.431 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 394 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1125ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (497ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.846 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (628ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (626ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 9.02 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 6325 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 218 unused Assets / (154.7 KB). Loaded Objects now: 6697.
+Memory consumption went from 249.7 MB to 249.6 MB.
+Total: 5.998750 ms (FindLiveObjects: 0.320417 ms CreateObjectMapping: 0.119083 ms MarkObjects: 4.789833 ms  DeleteObjects: 0.768708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27213.238419 seconds.
+  path: Assets/_Course Library/_Prefabs
+  artifactKey: Guid(0251452a4b7afa64ca50d55eea8365e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs using Guid(0251452a4b7afa64ca50d55eea8365e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6193c50abc1f4bc506a0377e3db45438') in 0.001786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.661781 seconds.
+  path: Assets/_Course Library/_Prefabs/Environments/Background_Hills.prefab
+  artifactKey: Guid(ba41cc3523f70d94981ec452dc307e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Environments/Background_Hills.prefab using Guid(ba41cc3523f70d94981ec452dc307e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7968147bed622bf4623c62b64f4b0b') in 0.310394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab
+  artifactKey: Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab using Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b6743f981e9781a41eb92c2c5f3406') in 0.018524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Rustic_B.fbx
+  artifactKey: Guid(524a1d56c9e4b094ab81b571f753ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Rustic_B.fbx using Guid(524a1d56c9e4b094ab81b571f753ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3934d3b12656b401709a10164cc3cb7d') in 0.054264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d43b3d2a3d4748fce2c21f794fea75') in 0.028225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab
+  artifactKey: Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab using Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da01e364394c60ce491fa7de8b55281') in 0.010204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab
+  artifactKey: Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab using Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07924c5a0f434910bd54a257e1c216c6') in 0.009569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Modern_B.fbx
+  artifactKey: Guid(a99bfce40f8f44647a68dc0babb8e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Modern_B.fbx using Guid(a99bfce40f8f44647a68dc0babb8e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566320d9df2008397ab7f3bd0616ff1') in 0.015774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Modern.fbx
+  artifactKey: Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Modern.fbx using Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6cce294baf25d194c909e702508f13') in 0.014715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chest_Modern_B.fbx
+  artifactKey: Guid(42324ce4420b0544ab69afb9e3185de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chest_Modern_B.fbx using Guid(42324ce4420b0544ab69afb9e3185de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91462e85d075adae2fba13052ebba7c') in 0.027523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/_Course Library/Source Files/Models/Cabinet_Traditional.fbx
+  artifactKey: Guid(607380a30bf2d1d418836bcf8ea20328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Cabinet_Traditional.fbx using Guid(607380a30bf2d1d418836bcf8ea20328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a85a3d8c39ab6ba41a2bd91496c4124') in 0.052517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chest_Modern.fbx
+  artifactKey: Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chest_Modern.fbx using Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37d2d2a58d4bbde05b6dfae006f4d5d') in 0.052065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chandalier_Modern.fbx
+  artifactKey: Guid(8c6a7cdc75fd7ed46baea0f967191dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chandalier_Modern.fbx using Guid(8c6a7cdc75fd7ed46baea0f967191dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6281378bf56cf996abb3276227d5e8') in 0.015270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chandelier_Rustic.fbx
+  artifactKey: Guid(18c0edda600483b4789dbdccc43b1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chandelier_Rustic.fbx using Guid(18c0edda600483b4789dbdccc43b1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99844ba8aa50504235bef78a4f8dff89') in 0.032085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Course Library/Source Files/Models/Cabinet_Modern_B.fbx
+  artifactKey: Guid(332ad90e44467c44a81dea0f29d07765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Cabinet_Modern_B.fbx using Guid(332ad90e44467c44a81dea0f29d07765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a447c2dbf9c898697ba87e117dd414') in 0.038542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab
+  artifactKey: Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab using Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e93d2e2c169c08b0c42280169f637e') in 0.009417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Course Library/Source Files/Models/Drawers_Traditional.fbx
+  artifactKey: Guid(67694f14d5fd8314bb5cbefc9d95a47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Drawers_Traditional.fbx using Guid(67694f14d5fd8314bb5cbefc9d95a47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979318d509f2fc3f3168c10d1e0c49fe') in 0.214027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/LeftHand.fbx
+  artifactKey: Guid(051a3c80c459a459f8ea7f5c2a1f53a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/LeftHand.fbx using Guid(051a3c80c459a459f8ea7f5c2a1f53a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3f43b219d50438e0ea8f9c486b6ef7') in 0.035192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/RightHand.fbx
+  artifactKey: Guid(b8deafae43f0743d39248ddf45312460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/RightHand.fbx using Guid(b8deafae43f0743d39248ddf45312460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3535e6755f5b6ee44a140d12e6cf58e7') in 0.028303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2b736e3c528b209cbbd8ed0e99abb2') in 0.197614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8df8837d53f191972072b3ab4db47f7') in 0.026257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Course Library/Source Files/Models/Cabinet_Modern.fbx
+  artifactKey: Guid(0b265d2c8d8d67d43afcdf13a726d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Cabinet_Modern.fbx using Guid(0b265d2c8d8d67d43afcdf13a726d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd2bf132b4694064aece80fc54a4263') in 0.017814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Course Library/Source Files/Models/Speaker_Boombox.fbx
+  artifactKey: Guid(b0befbd5b40c17d4c90a8db749239bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Speaker_Boombox.fbx using Guid(b0befbd5b40c17d4c90a8db749239bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f343f10056b4ccf11205d2e9a755e500') in 0.027617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chandelier_Traditional.fbx
+  artifactKey: Guid(30cbc3cd9a16fcc4d8c54a9aa698c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chandelier_Traditional.fbx using Guid(30cbc3cd9a16fcc4d8c54a9aa698c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46213ad59fd5c8fa595801807c0c606d') in 0.018932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3372a986e4cd890270586cacb8a6ff6') in 0.007665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_Course Library/_Prefabs/Bins/Bin_Round_White.prefab
+  artifactKey: Guid(f53b75d63a0f12e4f9207b643d400e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Bins/Bin_Round_White.prefab using Guid(f53b75d63a0f12e4f9207b643d400e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc67a8a9072ab77aa1dd507a25179a4b') in 0.010602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_DarkBrown.prefab
+  artifactKey: Guid(ddb8bcacf9b699b428806e528be6780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_DarkBrown.prefab using Guid(ddb8bcacf9b699b428806e528be6780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945a77227229c8675f32e599e0fade28') in 0.010289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab
+  artifactKey: Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab using Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff9aa752d249dcba6e36e60fceb70be') in 0.010347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Traditional_B.fbx
+  artifactKey: Guid(c85425214953d3e458c75798dc76fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Traditional_B.fbx using Guid(c85425214953d3e458c75798dc76fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366780f86654ab692e5340d9bb9048e9') in 0.017854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Traditional.fbx
+  artifactKey: Guid(1c9f4d68760b3784b9ff57afcf8c2da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Traditional.fbx using Guid(1c9f4d68760b3784b9ff57afcf8c2da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699c712b9e193b118db6b443228c04c8') in 0.018365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_Course Library/Source Files/Models/Hat_Captain_B.fbx
+  artifactKey: Guid(3ba68e88150d5894ab9f81fd605819d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Hat_Captain_B.fbx using Guid(3ba68e88150d5894ab9f81fd605819d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f853eea9a91c99f4496471e01f2bef05') in 0.016882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/_Course Library/Source Files/Models/Chair_Rustic.fbx
+  artifactKey: Guid(8c1fb203490f1664ba9890dee69d5a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Chair_Rustic.fbx using Guid(8c1fb203490f1664ba9890dee69d5a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20d4684af1faf8d6ac8a0ed88aa027f') in 0.016686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/_Course Library/Source Files/Models/Dimmer_2.FBX
+  artifactKey: Guid(33a1c756b70d2774491855713431eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Dimmer_2.FBX using Guid(33a1c756b70d2774491855713431eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf5acbdbdaaf86d29cb7fa4ff3ea79d') in 0.035650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Colorful_Left.prefab
+  artifactKey: Guid(820280a7a7d593e43a6a724a654c4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Colorful_Left.prefab using Guid(820280a7a7d593e43a6a724a654c4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2dc1c7e3c294ed25c242a84a6c7cd5') in 0.012028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Left.prefab
+  artifactKey: Guid(8c5aedbedb31848488e8007c3432c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Left.prefab using Guid(8c5aedbedb31848488e8007c3432c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5617c72ef799d336cdf2207cb4d9e94') in 0.011665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_Door.fbx
+  artifactKey: Guid(2f22d1a46ab261a4d9621f746d3a536c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_Door.fbx using Guid(2f22d1a46ab261a4d9621f746d3a536c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7cf1903eb338e77267dcc201ea0772') in 0.047050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0e3f8a1de984b0c3794d4cd2b796c5') in 0.050441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Blue_Right.prefab
+  artifactKey: Guid(a2e8ee2005c074447b929af42b7f5068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Blue_Right.prefab using Guid(a2e8ee2005c074447b929af42b7f5068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca99967d10a6c07e94d721397681977') in 0.010431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Right.prefab
+  artifactKey: Guid(d1791b6c42f7b4091950a90dbf80c441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Gray_Right.prefab using Guid(d1791b6c42f7b4091950a90dbf80c441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71108056aa9651c4db80f7e52f6c1979') in 0.010352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Door.fbx
+  artifactKey: Guid(cd0725da5e217fe42b4679669fb13cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_Door.fbx using Guid(cd0725da5e217fe42b4679669fb13cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2df6b2568ef378e95bf9016578b46cb') in 0.037917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/_Course Library/Source Files/Models/Speaker_RecordPlayer.fbx
+  artifactKey: Guid(f421bf55cae3aa8488d771ccf269bca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Speaker_RecordPlayer.fbx using Guid(f421bf55cae3aa8488d771ccf269bca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72c94f11a9cc722492fc0a79a39880c') in 0.066032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/_Course Library/Source Files/Models/Lightsource_Lantern.fbx
+  artifactKey: Guid(e83a7a91e88012447a2a89cc0a3bb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Lightsource_Lantern.fbx using Guid(e83a7a91e88012447a2a89cc0a3bb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b060ceb538b54cb9ce79853e6266a1f8') in 0.036413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Door.fbx
+  artifactKey: Guid(fb6def4110e9f5e47867742140db3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/RoomRustic_Models/Room_Rustic_Door.fbx using Guid(fb6def4110e9f5e47867742140db3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7894c5c2891d425c4732373d2bda6c71') in 0.034787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Challenges/01_Architecture/Prefabs/Sphere_Hand.prefab
+  artifactKey: Guid(546d1b0e50a7644d59868e86e9b04458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Prefabs/Sphere_Hand.prefab using Guid(546d1b0e50a7644d59868e86e9b04458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15a2f7d48fd6b1bfe0171bde70b187b') in 0.010468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Primitive.prefab
+  artifactKey: Guid(66b7de02017114b29a1237e13b5d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Primitive.prefab using Guid(66b7de02017114b29a1237e13b5d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4039dc8ced042a2282e26ad184355982') in 0.012804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_All.FBX
+  artifactKey: Guid(be28df98030e8f64591e136832fc9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/RoomModern_Models/Room_Modern_All.FBX using Guid(be28df98030e8f64591e136832fc9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defd79ebeaf2f5210135d1f15c7a9cbb') in 0.069374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Modern.prefab
+  artifactKey: Guid(d5bb5377bb2f0bd45a41101a27ddecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Modern.prefab using Guid(d5bb5377bb2f0bd45a41101a27ddecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f99ecda6cda931d346061adfefd18c7') in 0.010913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.306943 seconds.
+  path: Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Yellow_Left.prefab
+  artifactKey: Guid(8ed7c4661c5c246c3b215268ec9f5cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/VR/Hands/VR_Hand_Yellow_Left.prefab using Guid(8ed7c4661c5c246c3b215268ec9f5cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b80b9c9a121f641669c28293f01e6c6') in 0.008562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 2912.444078 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Hats/Hat_Straw.prefab
+  artifactKey: Guid(e47d1d603e6f7de498727aba1230cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Hats/Hat_Straw.prefab using Guid(e47d1d603e6f7de498727aba1230cd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9e997c5907aa73c092de48910b7d2d') in 0.115652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Hats/Hat_Witch_Blue.prefab
+  artifactKey: Guid(364b4f12314d0fb4ea2870ddcc2f1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Hats/Hat_Witch_Blue.prefab using Guid(364b4f12314d0fb4ea2870ddcc2f1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58eb46a5af47354bca49662d290aa65') in 0.011951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Hats
+  artifactKey: Guid(5957e5a520fa344b48ebf7b264cec222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Hats using Guid(5957e5a520fa344b48ebf7b264cec222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7ed29eae09e5ccd89fb66a45733382') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.50 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (33.2 KB). Loaded Objects now: 6831.
+Memory consumption went from 125.4 MB to 125.3 MB.
+Total: 54.007541 ms (FindLiveObjects: 0.534417 ms CreateObjectMapping: 0.208333 ms MarkObjects: 53.094291 ms  DeleteObjects: 0.169334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

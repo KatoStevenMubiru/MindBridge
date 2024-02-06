@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-65
+11-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-52
+13-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:17-49
+14    <uses-feature
+14-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-88
+15        android:name="android.hardware.touchscreen"
+15-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:17-60
+16        android:required="false" />
+16-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:61-85
+17    <uses-feature
+17-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-99
+18        android:name="android.hardware.touchscreen.multitouch"
+18-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-71
+19        android:required="false" />
+19-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:72-96
+20    <uses-feature
+20-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-108
+21        android:name="android.hardware.touchscreen.multitouch.distinct"
+21-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-80
+22        android:required="false" />
+22-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:81-105
+23    <uses-feature
+23-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-111
+24        android:name="android.hardware.vr.headtracking"
+24-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-64
+25        android:required="true"
+25-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:65-88
+26        android:version="1" />
+26-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:89-108
+27
+28    <application android:extractNativeLibs="true" >
+28-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-29:17
+28-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:16-48
+29        <meta-data
+29-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:5-69
+30            android:name="unity.splash-mode"
+30-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-48
+31            android:value="0" />
+31-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:49-66
+32        <meta-data
+32-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-74
+33            android:name="unity.splash-enable"
+33-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-50
+34            android:value="True" />
+34-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:51-71
+35        <meta-data
+35-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-78
+36            android:name="unity.launch-fullscreen"
+36-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-54
+37            android:value="True" />
+37-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+38        <meta-data
+38-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-81
+39            android:name="notch.config"
+39-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-43
+40            android:value="portrait|landscape" />
+40-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:44-78
+41        <meta-data
+41-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-84
+42            android:name="unity.auto-report-fully-drawn"
+42-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-60
+43            android:value="true" />
+43-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:61-81
+44
+45        <activity
+45-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-23:16
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:15-68
+47            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+47-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:204-313
+48            android:exported="true"
+48-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:385-408
+49            android:hardwareAccelerated="false"
+49-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:349-384
+50            android:launchMode="singleTask"
+50-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:172-203
+51            android:resizeableActivity="false"
+51-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:314-348
+52            android:screenOrientation="landscape"
+52-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:134-171
+53            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+53-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:69-133
+54            <intent-filter>
+54-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:7-19:23
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:9-69
+55-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:19-66
+56
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:9-61
+57-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:17-58
+58
+59                <category android:name="com.oculus.intent.category.VR" />
+59-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:9-66
+59-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:19-63
+60            </intent-filter>
+61
+62            <meta-data
+62-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:7-82
+63                android:name="unityplayer.UnityActivity"
+63-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:18-58
+64                android:value="true" />
+64-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:59-79
+65            <meta-data
+65-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:7-70
+66                android:name="notch_support"
+66-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:18-46
+67                android:value="true" />
+67-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:47-67
+68            <meta-data
+68-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:7-81
+69                android:name="com.oculus.vr.focusaware"
+69-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:18-57
+70                android:value="true" />
+70-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:58-78
+71        </activity>
+72
+73        <meta-data
+73-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-97
+74            android:name="com.samsung.android.vr.application.mode"
+74-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:16-70
+75            android:value="vr_only" />
+75-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:71-94
+76        <meta-data
+76-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:5-91
+77            android:name="com.unity.xr.oculus.LowOverheadMode"
+77-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:16-66
+78            android:value="false" />
+78-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:67-88
+79        <meta-data
+79-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:5-88
+80            android:name="com.unity.xr.oculus.LateLatching"
+80-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:16-63
+81            android:value="false" />
+81-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:64-85
+82        <meta-data
+82-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:5-93
+83            android:name="com.unity.xr.oculus.LateLatchingDebug"
+83-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:16-68
+84            android:value="false" />
+84-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:69-90
+85        <meta-data
+85-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:5-84
+86            android:name="com.oculus.supportedDevices"
+86-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:16-58
+87            android:value="quest2" />
+87-->/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:59-81
+88    </application>
+89
+90</manifest>

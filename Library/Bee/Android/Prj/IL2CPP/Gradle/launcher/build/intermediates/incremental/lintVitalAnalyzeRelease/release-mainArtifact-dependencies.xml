@@ -1,0 +1,24 @@
+<dependencies>
+  <compile
+      roots="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release">
+    <dependency
+        name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release,__local_aars__:/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,:OVRPlugin:@aar,/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:xrmanifest.androidlib::release,/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:FirebaseApp.androidlib::release">
+    <dependency
+        name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":OVRPlugin:@aar"/>
+    <dependency
+        name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+    <dependency
+        name="/Users/katostevenmubiru/Downloads/MindBridge/MindBridge/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:FirebaseApp.androidlib::release"
+        simpleName="Gradle.unityLibrary:FirebaseApp.androidlib"/>
+  </package>
+</dependencies>
